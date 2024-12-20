@@ -1,0 +1,58 @@
+id: I9D7F778A
+ocr_import_info:
+  timestamp: '2024-12-20T14:55:19.899517+00:00'
+  batch_id: batch-c44d
+  ocr_engine: GoogleVisionEngine
+  ocr_model_type: builtin/weekly
+  ocr_lang_hint: ''
+  software_id: ocr-pipelines@v0.1.11
+  sponsor: BDRC
+  sponsor_consent: true
+  op_import_options: {}
+  op_import_version: 0.11.13
+default_language: bo
+source: https://library.bdrc.io
+initial_creation_type: ocr
+imported: 2024-12-20 15:15:53.392646+00:00
+last_modified: 2024-12-20 15:15:53.392655+00:00
+source_metadata:
+  id: http://purl.bdrc.io/resource/W3CN3380
+  status: http://purl.bdrc.io/admindata/StatusReleased
+  access: http://purl.bdrc.io/admindata/AccessOpen
+  reproduction_of: http://purl.bdrc.io/resource/MW3CN3380
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: དེབ་ཐེར་སྔོན་པོ།
+  languages:
+  - bo
+  author: འགོས་ལོ་ཙཱ་བ་གཞོན་ནུ་དཔལ།
+statistics:
+  ocr_word_mean_confidence_index: 0.9935951011987835
+  ocr_word_median_confidence_index: 0.99999696
+bases:
+  I3CN8593:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN8593
+      total_pages: 704
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I3CN8593.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.99999607
+      ocr_word_mean_confidence_index: 0.9933431625840986
+  I3CN8594:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN8594
+      total_pages: 610
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I3CN8594.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9999977
+      ocr_word_mean_confidence_index: 0.9938616556294378
+copyright:
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
